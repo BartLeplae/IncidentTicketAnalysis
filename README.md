@@ -1,2 +1,2 @@
 # IncidentTicketAnalysis
-Analyze the duration of tickets
+Analyze the duration of Incident tickets
