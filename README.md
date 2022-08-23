@@ -22,14 +22,18 @@ Therefore looked for a way to standardize the data in a way to enable comparison
 
 ## File Descriptions
 Code:
-IncidentTicketAnalysis.ipynb (Jupiter notebook with the Python code)
+IncidentTicketAnalysis.ipynb (Jupyter notebook / Python code)
 
 Input:
 Incidents.xlsx (subset of fields extracted from EDL through a SQL query and manually anonymized)
 
 Output:
+ttr_days.png (histogram of the actual time to resolve)
+diff.png (histogram of the time difference: actual - predicted)
+assignment_group_company.png (boxplot of the time difference, showing the different vendors)
+cstat_score.png (boxplot of the time difference, showing the different customer satisfaction scores)
 IncidentDuration_coef.xlsx (coefficients for the factors that influence the time to resolve incidents as determined through the Linear model)
-Factors with increased TTR.xlsx (for all combination of categorical field / values: mean, t and p value)
+Factors influencing TTR.xlsx (2 tabs: one for the increases, one for the decreases; shows values for all combination of categorical field / values: mean, t and p value)
 
 ## Technical details
 Step 1: Predict the resolution times based on a set of factors using sklearn linear model
