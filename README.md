@@ -11,6 +11,8 @@ scipy
 seaborn
 
 ## Project motivation
+https://medium.com/@bartleplae/identify-factors-that-influence-incident-ticket-resolution-timelines-through-python-8a3022b288c4
+
 Business Questions:
 1. What are the factors that influence the time to resolve incident tickets?
 2. Is there a difference in ticket resolution time between vendors?
