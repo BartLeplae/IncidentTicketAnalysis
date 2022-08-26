@@ -30,12 +30,13 @@ Input:
 - Incidents.xlsx (subset of fields extracted from EDL through a SQL query and manually anonymized)
 
 Output:
-- ttr_days.png (histogram of the actual time to resolve)
-- diff.png (histogram of the time difference: actual - predicted)
-- assignment_group_company.png (boxplot of the time difference, showing the different vendors)
-- cstat_score.png (boxplot of the time difference, showing the different customer satisfaction scores)
 - IncidentDuration_coef.xlsx (coefficients for the factors that influence the time to resolve incidents as determined through the Linear model)
 - Factors influencing TTR.xlsx (2 tabs: one for the increases, one for the decreases; shows values for all combination of categorical field / values: mean, t and p value)
+- days_to_resolve.png (histogram of the actual time to resolve)
+- time_to_resolve_actual_minus_expected.png (histogram of the time difference: actual - predicted)
+- assignment_group_company_time_to_resolve.png (boxplot of the time difference, showing the different vendors)
+- customer_satisfaction_time_to_resolve.png (boxplot of the time difference, showing the different customer satisfaction scores)
+- ticket_reassignment_time_to_resolve (boxplot of the time difference, showing the different reassignment counts)
 
 ## Technical details
 - Step 1: Predict the resolution times based on a set of factors using sklearn linear model
