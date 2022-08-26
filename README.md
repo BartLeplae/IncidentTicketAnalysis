@@ -17,6 +17,7 @@ Business Questions:
 1. What are the factors that influence the time to resolve incident tickets?
 2. Is there a difference in ticket resolution time between vendors?
 3. Can customer satisfaction be related to the resolution time?
+4. Does ticket reassignment between groups and staff members affect the resolution time?
 
 While incident ticket resolution timelines are generally available through various dashboards,
 these timelines can not always be compared given the difference in context such as priority and agreed service level.
